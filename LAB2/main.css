@@ -1,0 +1,55 @@
+/* external style sheet*/ 
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+h1 {
+    color:red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+h2{
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+}
+hr{
+    height: 6px;
+    background-color: rgb(255, 251, 0);
+    width: 90%;
+    border: none;
+}
+p {
+    color: black;
+}
+button {
+    background-color: rgb(0, 153, 255);
+    color: black;
+    padding: 7px 10px;
+    margin: 10px;
+    border: solid;
+    width: 25%;
+    opacity: 0.8;
+    font-size: 25px;
+}
+button:hover{
+    opacity: 1;
+}
+.sbtbutton {
+    background-color: rgb(0, 212, 71);
+    width: 10%;
+}
+.clr {
+    background-color: rgb(255, 55, 55);
+    width: 10%;
+}
+.active-page {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: crimson;
+    border-bottom-color: crimson;
+}
